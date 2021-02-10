@@ -1,0 +1,8 @@
+xcwd is a simple tool that prints the current working directory of the currently
+focused window.
+
+The main goal is to launch applications directly into the same directory as the
+focused applications. This is especially useful to open a new terminal or a file
+explorer.
+
+WWW: https://github.com/schischi/xcwd/

@@ -1,0 +1,13 @@
+--- Makefile.orig	2020-06-28 19:40:09 UTC
++++ Makefile
+@@ -1,7 +1,7 @@
+ CFILES=xcwd.c
+-CC=gcc
+-CFLAGS=-Wall -Wextra -std=gnu99 -O2
+-LDFLAGS=-lX11
++CC?=cc
++CFLAGS+=-Wall -Wextra -std=gnu99
++LDFLAGS+=-lX11
+ EXE=xcwd
+ prefix=/usr
+ UNAME:=$(shell uname)
